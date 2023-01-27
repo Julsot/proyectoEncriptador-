@@ -1,0 +1,191 @@
+body {
+    height: 1024px;
+    width: 1440px;
+    left: -2277px;
+    top: 622px;
+    border-radius: 0px;
+    font-family: 'Inter';
+
+}
+
+.encabezado {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background: #F3F5FC;
+}
+
+.logoAlura {
+
+    margin-top: 40px;
+    margin-left: 84px;
+}
+
+.container {
+    background: #F3F5FC;
+    width: 100%;
+    height: 80%;
+}
+
+.first {
+    float: left;
+    width: 60%;
+    height: 100%;
+
+}
+
+.text {
+    position: relative;
+    height: 30%;
+    width: 60%;
+    left: 240px;
+    top: 168px;
+    border-radius: 5px;
+    border: #F3F5FC;
+    outline: none;
+    background-color: #F3F5FC;
+    color: #0A3871;
+}
+
+
+
+.sectbuttons {
+    display: block;
+    position: absolute;
+    height: 67px;
+    width: 680px;
+    left: 135px;
+    top: 770px;
+    border-radius: 0px;
+    gap: 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+}
+
+.alert img {
+    height: 20px;
+}
+
+.alert p {
+    margin: 15px 10px;
+}
+
+.btnenc {
+    height: 67px;
+    width: 200px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    background: #0A3871;
+}
+
+.btnenc:hover{
+    filter: opacity(.5);
+    transition: 0.5s;
+}
+
+.btndesenc {
+    height: 67px;
+    width: 200px;
+    left: 352px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: #F3F5FC;
+}
+
+.btndesenc:hover{
+    filter: opacity(.5);
+    transition: 0.5s;
+}
+
+.btnlimp {
+    height: 67px;
+    width: 200px;
+    left: 352px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.btnlimp:hover{
+    filter: opacity(.5);
+    transition: 0.5s;
+}
+
+.second {
+    float: right;
+    width: 30%;
+    height: 795px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.napo {
+    width: 100%;
+    height: 70%;
+    border-radius: 32px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.goodThings {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: auto;
+    float: initial;
+}
+
+.goodThings:hover{
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.downnapo {
+    height: 122px;
+    width: 336px;
+    left: 1032px;
+    top: 619px;
+    display: -webkit-box;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 980px;
+    top: 665px;
+    text-align: center;
+}
+
+.downnapo strong {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.downnapo p {
+    position: absolute;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: max-content;
+    margin-right: 50px ;
+    margin-top: 16px;
+}
